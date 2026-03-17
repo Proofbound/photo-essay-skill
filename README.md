@@ -1,6 +1,6 @@
-# Photo Essay Skill for Claude Code
+# Photo Essay Skill for Claude
 
-A [Claude Code](https://claude.com/claude-code) skill that turns a directory of photos into a polished, self-contained HTML photo essay — ready to email or share.
+A skill for [Claude Code](https://claude.com/claude-code) and [Claude Desktop](https://claude.ai/download) that turns a directory of photos into a polished, self-contained HTML photo essay — ready to email or share.
 
 Think Smithsonian magazine meets personal travel email: rich historical and cultural context, warm first-person voice, all in a single `.html` file with embedded images.
 
@@ -23,21 +23,18 @@ Think Smithsonian magazine meets personal travel email: rich historical and cult
 /plugin install photo-essay@proofbound-photo-essay-skill
 ```
 
-### Manual install
+### Manual install (works for both Claude Code and Claude Desktop)
 
 ```bash
 git clone https://github.com/Proofbound/photo-essay-skill.git ~/.claude/skills/photo-essay
-```
-
-Then install the Python dependencies:
-
-```bash
 pip install Pillow pillow-heif --break-system-packages
 ```
 
+Claude Code and Claude Desktop share the same `~/.claude/skills/` directory, so installing once makes the skill available in both.
+
 ## Usage
 
-In Claude Code, just say:
+In Claude Code or Claude Desktop, just say:
 
 - "Make a photo essay from ~/Photos/tokyo-trip"
 - "Turn these trip photos into something nice"
@@ -56,7 +53,7 @@ The result is a single `.html` file that:
 
 ## Requirements
 
-- [Claude Code](https://claude.com/claude-code) CLI
+- [Claude Code](https://claude.com/claude-code) or [Claude Desktop](https://claude.ai/download)
 - Python 3 with [Pillow](https://pillow.readthedocs.io/)
 - `pillow-heif` for HEIC/iPhone photo support
 
