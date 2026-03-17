@@ -39,7 +39,7 @@ Run `scripts/process_photos.py` on the photo directory. This script:
 - Outputs a JSON manifest with base64 data, dimensions, GPS, and timestamps
 
 ```bash
-python3 <skill-path>/scripts/process_photos.py <photo-directory> <output-manifest.json>
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/photo-essay/scripts/process_photos.py <photo-directory> <output-manifest.json>
 ```
 
 Install dependencies if needed: `pip install Pillow pillow-heif --break-system-packages -q`

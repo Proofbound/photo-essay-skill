@@ -1,0 +1,12 @@
+{
+  "name": "photo-essay",
+  "version": "1.0.0",
+  "description": "Turn a folder of photos into a Smithsonian-quality HTML photo essay with GPS research and magazine-style prose",
+  "author": {
+    "name": "Richard Sprague",
+    "url": "https://github.com/richardsprague"
+  },
+  "repository": "https://github.com/Proofbound/photo-essay-skill",
+  "license": "MIT",
+  "keywords": ["photos", "essay", "travel", "html", "email"]
+}

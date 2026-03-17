@@ -15,6 +15,16 @@ Think Smithsonian magazine meets personal travel email: rich historical and cult
 
 ## Install
 
+### As a plugin (recommended)
+
+```bash
+# In Claude Code:
+/plugin marketplace add Proofbound/photo-essay-skill
+/plugin install photo-essay@proofbound-photo-essay-skill
+```
+
+### Manual install
+
 ```bash
 git clone https://github.com/Proofbound/photo-essay-skill.git ~/.claude/skills/photo-essay
 ```
