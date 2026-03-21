@@ -32,6 +32,10 @@ pip install Pillow pillow-heif --break-system-packages
 
 Claude Code and Claude Desktop share the same `~/.claude/skills/` directory, so installing once makes the skill available in both.
 
+### Windows
+
+Download and double-click [`install-windows.bat`](install-windows.bat), or see [WINDOWS-INSTALL.md](WINDOWS-INSTALL.md) for step-by-step instructions.
+
 ## Usage
 
 In Claude Code or Claude Desktop, just say:
