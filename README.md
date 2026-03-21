@@ -15,26 +15,31 @@ Think Smithsonian magazine meets personal travel email: rich historical and cult
 
 ## Install
 
-### As a plugin (recommended)
+### macOS / Linux
 
 ```bash
-# In Claude Code:
+curl -fsSL https://raw.githubusercontent.com/Proofbound/photo-essay-skill/main/install.sh | bash
+```
+
+### Windows
+
+Download and double-click [`install-windows.bat`](https://raw.githubusercontent.com/Proofbound/photo-essay-skill/main/install-windows.bat), or see [WINDOWS-INSTALL.md](WINDOWS-INSTALL.md) for step-by-step instructions.
+
+### Other methods
+
+**As a Claude Code plugin:**
+```bash
 /plugin marketplace add Proofbound/photo-essay-skill
 /plugin install photo-essay@proofbound-photo-essay-skill
 ```
 
-### Manual install (works for both Claude Code and Claude Desktop)
-
+**Manual:**
 ```bash
 git clone https://github.com/Proofbound/photo-essay-skill.git ~/.claude/skills/photo-essay
 pip install Pillow pillow-heif --break-system-packages
 ```
 
 Claude Code and Claude Desktop share the same `~/.claude/skills/` directory, so installing once makes the skill available in both.
-
-### Windows
-
-Download and double-click [`install-windows.bat`](install-windows.bat), or see [WINDOWS-INSTALL.md](WINDOWS-INSTALL.md) for step-by-step instructions.
 
 ## Usage
 
