@@ -30,7 +30,7 @@ Download and double-click [`install-windows.bat`](https://raw.githubusercontent.
 **As a Claude Code plugin:**
 ```bash
 /plugin marketplace add Proofbound/photo-essay-skill
-/plugin install photo-essay@proofbound-photo-essay-skill
+/plugin install photo-essay@proofbound-plugins
 ```
 
 **Manual:**

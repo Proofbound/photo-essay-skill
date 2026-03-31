@@ -1,0 +1,12 @@
+{
+  "name": "proofbound-plugins",
+  "owner": { "name": "Proofbound" },
+  "plugins": [
+    {
+      "name": "photo-essay",
+      "source": { "source": "github", "repo": "Proofbound/photo-essay-skill" },
+      "description": "Turn a folder of photos into a Smithsonian-quality HTML photo essay with GPS research and magazine-style prose",
+      "version": "1.0.0"
+    }
+  ]
+}
